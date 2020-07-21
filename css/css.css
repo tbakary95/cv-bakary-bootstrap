@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background:blanchedalmond;
+    box-sizing: border-box;
+    
+}
+
+.titre{
+    font-size: larger;
+    padding: 2rem;
+    background-color:red;
+    text-align: center;
+    font-size: 4rem;
+}
+
+
+.image{
+    float: left; width: 10%; height: 20%;
+}
+
+
+
+.a{display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.contact{background-color: lightblue;
+    
+    padding: 5em;
+    
+
+}
+
+.formations{
+    
+    background-color: greenyellow;
+    border-bottom: white .2em solid;
+    flex: 1 1;
+}
+
+.competence{
+    background-color: linen;
+    border-bottom: white .2em solid;
+    flex: 1 1;
+
+}
+
+.experience-titre{
+    background-color: brown;
+    text-align: center;
+    
+}
+
+.container{background-color:chocolate;
+   width: 100%; 
+}
+
+.row{
+    
+}
+
